@@ -13,6 +13,55 @@
   }
 }
 
+.preencher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  gap: 2vw;
+}
+
+input {
+  height: 4vh;
+  width: 18vw;
+  border-radius: 3vw;
+  border: 1px solid black;
+  margin-left: 2vw;
+  font-size: 15px;
+
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 40vw;
+  border: 3px solid rgb(244, 244, 244);
+  background-color: rgb(162, 161, 161);
+  border-radius: 2vw;
+
+  box-shadow: 1vw 1vw 1vw 1vw rgb(26, 25, 27);
+}
+
+.botao{
+  background-color: #484f5e;
+  height: 5vh;
+  width: 8vw;
+  border-radius: 3vw;
+  border: 1px solid white;
+  color: #dfeaea;
+
+  font-size: 18px;
+}
+
+.botao:hover{
+  background-color: #2a2f38;
+  border: 1px solid #61dafb;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +70,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(61, 57, 57);
 }
 
 .App-link {
